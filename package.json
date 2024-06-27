@@ -2,7 +2,7 @@
   "name": "better-xcloud",
   "appName": "Better XCloud",
   "version": "1.0.0",
-  "description": "Test Xbox Cloud"
+  "description": "Test Xbox Cloud",
   "module": "src/index.ts",
   "type": "module",
   "packageType": "mods",
