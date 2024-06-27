@@ -1,14 +1,27 @@
 {
-  "name": "@Arsyad1105/better-xcloud",
-  "appName": "Better Xcloud",
-  "version": "1.0.4",
-  "description": "Xbox on Samsung TV",
-  "packageType": "mods",
-  "websiteURL": "https://xbox.com/play",
+  "name": "better-xcloud",
+  "appName": "Better XCloud",
+  "version": "1.0.5",
+  "description": "Test Xbox Cloud on Samsung TV",
+  "module": "src/index.ts",
+  "type": "module",
+  "packageType": "app",
+  "websiteURL": "https://www.xbox.com/play",
   "main": "dist/better-xcloud.user.js",
-  "author": "Users",
-  "keys": ["MediaPlayPause"],
-  "repository": {
-    "url": "https://github.com/Arsyad1105"
+  "bin": {
+    "build": "build.ts"
+  },
+  "scripts": {
+    "build": "gulp",
+    "postinstall": "gulp"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.5",
+    "@types/node": "^20.14.9",
+    "@types/stylus": "^0.48.42",
+    "stylus": "^0.63.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.2"
   }
 }
