@@ -1,7 +1,13 @@
 {
   "name": "better-xcloud",
+  "appName": "Better XCloud",
+  "version": "1.0.0",
+  "description": "Test Xbox Cloud"
   "module": "src/index.ts",
   "type": "module",
+  "packageType": "mods",
+  "websiteURL": "https://www.xbox.com/play",
+  "main": "dist/better-xcloud.user.js",
   "bin": {
     "build": "build.ts"
   },
